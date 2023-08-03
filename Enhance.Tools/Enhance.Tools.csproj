@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>xuzhixi</Authors>
+    <Company />
+    <Copyright>©2023 xuzhixi All rights reserved.</Copyright>
+    <Description>工具类库</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Version>1.0.3</Version>
+    <PackageReleaseNotes>工具类库</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>
