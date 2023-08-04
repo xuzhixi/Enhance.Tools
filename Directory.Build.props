@@ -1,10 +1,16 @@
 <Project>
 	<PropertyGroup>
-
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		
+		<!-- 把调试信息嵌入dll中 -->
+		<DebugType>embedded</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		
+		<!-- 把调试信息写入pdb或snupkg中 -->
+		<!--
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		-->
 	</PropertyGroup>
 
 	<!--<PropertyGroup Condition="'$(GITLAB_CI)' == 'true'">-->
